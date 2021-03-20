@@ -1,13 +1,13 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        // sticky navbar on scroll script
+        // A barra de navegação fica fixa conforme vai rolando 
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
         }else{
             $('.navbar').removeClass("sticky");
         }
         
-        // scroll-up button show/hide script
+        // Botão para de rolagem para levar o usuário para o topo da pagina
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
         }else{
@@ -18,22 +18,22 @@ $(document).ready(function(){
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
-        // removing smooth scroll on slide-up button click
+        // Estou removendo a rolagem suave no clique do botao deslizante 
         $('html').css("scrollBehavior", "auto");
     });
 
     $('.navbar .menu li a').click(function(){
-        // applying again smooth scroll on menu items click
+        // Aplicando de novo a rolagem suave nos items do menu 
         $('html').css("scrollBehavior", "smooth");
     });
 
-    // toggle menu/navbar script
+    // Alternação do menu/ navbar
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
 
-    // typing text animation script
+    // Texto de animação 
     var typed = new Typed(".typing", {
         strings: ["Onde tudo acontece!" , "Onde seu futuro está garantido"],
         typeSpeed: 100,
@@ -48,7 +48,7 @@ $(document).ready(function(){
         loop: true
     });
 
-    // owl carousel script
+    // Script do carrossel
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
