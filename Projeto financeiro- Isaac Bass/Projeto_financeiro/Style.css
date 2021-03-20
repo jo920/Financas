@@ -1,4 +1,4 @@
-/*  import google fonts */
+/*  Importação do Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
+/* Barra de tarefas customizada */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -26,7 +26,7 @@ html{
     background: #555;
 }
 
-/* all similar content styling codes */
+/* Codigo de conteudo de estilos*/
 section{
     padding: 100px 0;
 }
@@ -77,7 +77,7 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-/* navbar styling */
+/* Design da barra de navegação */
 .navbar{
     position: fixed;
     width: 100%;
@@ -126,7 +126,7 @@ section .title::after{
     color: #fff;
 }
 
-/* menu btn styling */
+/* Estilo do menu-btn */
 .menu-btn{
     color: #fff;
     font-size: 23px;
@@ -162,7 +162,7 @@ section .title::after{
 }
 
   
-/* home section styling */
+/* Estilo da seção home */
 .home{
     display: flex;
     background: url("imagem\ de\ financeiro.jpg") no-repeat center;
@@ -209,7 +209,7 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
+/* Estilo sobre nós */
 .about .title::after{
     content: "Sobre a Alpha";
 }
@@ -253,7 +253,7 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
+/* Seção de estilos de serviços*/
 .services, .teams{
     color:#fff;
     background: #111;
@@ -299,7 +299,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
+/* Seção de estilos de investimentos */
 
 .skills .title::after{
     content: "Os melhores investimento";
@@ -374,7 +374,7 @@ section .title::after{
     width: 80%;
 }
 
-/* teams section styling */
+/* Seção de estilo explicando sobre cada integrante */
 .teams .title::after{
     content: "Quem está junto à você";
 }
@@ -437,7 +437,7 @@ section .title::after{
     background: crimson!important;
 }
 
-/* contact section styling */
+/* Seção de estilos contatos */
 .contact .title::after{
     content: "";
 }
@@ -535,7 +535,7 @@ section .title::after{
     background: none;
 }
 
-/* footer section styling */
+/* Estilo do rodapé*/
 footer{
     background: #111;
     padding: 15px 23px;
